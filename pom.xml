@@ -40,12 +40,12 @@
     <repository>
         <id>wealthlib</id>
         <name>RepositoryProxyRel</name>
-        <url>http://localhost:8081/artifactory/webapp/#/admin/repository/local/wealthlib</url>
+        <url>http://localhost:8081/artifactory/webapp</url>
     </repository>
     <snapshotRepository>
         <id>wealthlib</id>
         <name>RepositoryProxySnap</name>
-        <url>http://localhost:8081/artifactory/webapp/#/admin/repository/local/wealthlib</url>
+        <url>http://localhost:8081/artifactory/webapp/</url>
     </snapshotRepository>
 </distributionManagement>
 
