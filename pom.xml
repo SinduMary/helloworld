@@ -35,19 +35,21 @@
       </plugin>
     </plugins>
   </build>
+         
+         <distributionManagement>
+    <repository>
+        <id>wealthlib</id>
+        <name>RepositoryProxyRel</name>
+        <url>http://localhost:8081/artifactory/webapp/#/admin/repository/local/wealthlib</url>
+    </repository>
+    <snapshotRepository>
+        <id>wealthlib</id>
+        <name>RepositoryProxySnap</name>
+        <url>http://localhost:8081/artifactory/webapp/#/admin/repository/local/wealthlib</url>
+    </snapshotRepository>
+</distributionManagement>
 
 
-<repositories>
-<repository>
-  <id>repository.springframework.maven.release</id>
-  <name>Spring Framework Maven Release Repository</name>
-  <url>http://maven.springframework.org/release</url>
-</repository>
-<repository>
-  <id>Appid</id>
-  <name>AppName</name>
-  <url>http://localhost:8081/artifactory/webapp/#/admin/repository/local/wealthlib</url>
-</repository>
-</repositories>
+
 
 </project>
