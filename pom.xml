@@ -20,6 +20,7 @@
     <jdk.version>1.8</jdk.version>
 
     <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
+           
   </properties>
 
   <build>
@@ -33,7 +34,11 @@
           <target>${jdk.version}</target>
         </configuration>
       </plugin>
-    </plugins>
+     <plugin>
+            <artifactId>maven-deploy-plugin</artifactId>
+            <version>3.0.0-M1</version>
+        </plugin>
+     </plugins>
   </build>
   
   <distributionManagement>
