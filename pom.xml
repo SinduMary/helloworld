@@ -45,7 +45,12 @@
     <repository>
         <id>central</id>
         <name>BDC7-L-9324GPH-releases</name>
-        <url>http://127.0.0.1:8081/artifactory/libs-release</url>
+        <url>http://127.0.0.1:8081/artifactory/wealthlib</url>
     </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>BDC7-L-9324GPH-snapshots</name>
+        <url>http://127.0.0.1:8081/artifactory/wealthlib</url>
+    </snapshotRepository>
 </distributionManagement>
 </project>    
